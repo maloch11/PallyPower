@@ -1,4 +1,4 @@
-# PallyPower TW Edition
-Updated Pally Power with Shaman class in the buff table
+# PallyPower Lucifron Edition
+Updated Pally Power with Shaman class in the buff table and 15min greater blessings
 
-https://turtle-wow.org/
+https://lucifron.org/
