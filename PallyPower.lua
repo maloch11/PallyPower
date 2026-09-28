@@ -1040,7 +1040,7 @@ function PallyPowerBuffButton_OnClick(btn, mousebtn)
     CastSpell(AllPallys[UnitName("player")][btn.buffID]["id"], BOOKTYPE_SPELL);
     local RecentCast = false
 	if (FiveMinBlessing == true) then
-      if LastCast[btn.buffID .. btn.classID] and LastCast[btn.buffID .. btn.classID] > (5 * 60) - 30 then
+      if LastCast[btn.buffID .. btn.classID] and LastCast[btn.buffID .. btn.classID] > (10 * 60) - 30 then
           RecentCast = true
       end
 	else
@@ -1054,7 +1054,7 @@ function PallyPowerBuffButton_OnClick(btn, mousebtn)
             SpellTargetUnit(unit)
             PP_NextScan = 1
 			if (FiveMinBlessing == true) then
-              LastCast[btn.buffID .. btn.classID] = 5 * 60;
+              LastCast[btn.buffID .. btn.classID] = 10 * 60;
 			else
 			  LastCast[btn.buffID .. btn.classID] = 15 * 60;
 			end
